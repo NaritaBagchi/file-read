@@ -9,5 +9,6 @@ lazy val rootFS = (project in file("."))
     libraryDependencies += "co.fs2" %% "fs2-core" % "1.0.0",
     libraryDependencies += "co.fs2" %% "fs2-io" % "1.0.0",
     libraryDependencies += "co.fs2" %% "fs2-reactive-streams" % "1.0.0",
-    libraryDependencies += "co.fs2" %% "fs2-experimental" % "1.0.0"
+    libraryDependencies += "co.fs2" %% "fs2-experimental" % "1.0.0",
+    libraryDependencies += "com.typesafe" % "config" % "1.3.2"
   )
