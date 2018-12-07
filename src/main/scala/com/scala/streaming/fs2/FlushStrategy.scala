@@ -13,16 +13,6 @@ import java.io.File
 import com.typesafe.config.{ Config, ConfigFactory }
 import scala.concurrent.ExecutionContextExecutorService
 
-trait FlushStrategy {
-  def flush 
-}
-
-class FlushToLocalStrategy extends FlushStrategy {
-  def flush = ???
-}
-
-class FlushToS3Strategy extends FlushStrategy {
-  def flush: Unit = {
-    ???
-  }
+object Strategy {
+  
 }
